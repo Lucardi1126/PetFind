@@ -1,6 +1,12 @@
-
+html, body{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-image: url(bgpf.jpg);
+
+  letter-spacing: 0.3em;
+  line-height: 1.6;
 }
   
 form{
@@ -52,17 +58,4 @@ textarea{
 
 form label{
   color: white;
-}
-
-.navbar-nav{
-  color: black;
-
-  align-content: center;
-  position: relative;
-}
-.nav-link{
-  color: black;
-}
-.nav-item{
-color: brown;
 }
